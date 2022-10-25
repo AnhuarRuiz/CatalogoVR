@@ -1,10 +1,3 @@
-/**
-* Template Name: Lumia - v4.9.1
-* Template URL: https://bootstrapmade.com/lumia-bootstrap-business-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -33,7 +26,7 @@ section {
 #hero {
   width: 100%;
   height: 60vh;
-  background: url("../img/270972.jpg") center center;
+  background: url("../img/bg.jpg") center center;
   background-size: cover;
   position: relative;
   margin-top: 55px;
