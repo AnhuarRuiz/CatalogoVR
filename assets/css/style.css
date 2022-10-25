@@ -8,7 +8,7 @@ body {
 }
 section {
   padding: 60px 0;
-  background-color: black;
+  background-color: black; 
 }
 ::-webkit-scrollbar{
   width: 5px;
@@ -19,6 +19,37 @@ section {
 ::-webkit-scrollbar-thumb{
   background-color: rgb(133,26,232);
   background:  rgb(39, 39, 39);
+}
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: url(../img/whatsapp-icon.png) top right no-repeat;
+  width: 64px;
+  height: 64px;
+  border-radius: 4px; 
+  transition: all 0.4s;
+}
+
+.back-to-top i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back-to-top:hover {
+  filter: grayscale(60%);
+}
+
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
 }
 /*--------------------------------------------------------------
 # Hero Section
@@ -109,7 +140,7 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-info {
   padding: 25px 20px;
-  background: linear-gradient(94.23deg,#202020 12.41%,#000000 52.55%,#222222 89.95%);
+  background: linear-gradient(94.23deg,#0a0a0a 12.41%,#000000 52.55%,#111111 89.95%);
   border-style: solid;
   position: relative;
   z-index: 2;
@@ -117,12 +148,13 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 900;
   font-family: 'Viaoda Libre', cursive;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: white;
+  text-shadow: rgb(124, 124, 124) 2px 1px;
  
 }
 
