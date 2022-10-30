@@ -1,6 +1,4 @@
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
+/* General */
 body {
   background: #fff;
   color: #444;
@@ -16,9 +14,7 @@ body {
 ::-webkit-scrollbar-thumb{
   background-color: rgb(145, 145, 145);
 }
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
+/* Inicio */
 #hero {
   width: 100%;
   position: relative;
@@ -55,31 +51,29 @@ body {
   }
 
   #hero h2 {
-    font-size: 25px;
+    font-size: 25px; 
     line-height: 40px;
   }
 }
-/*--------------------------------------------------------------
-# Portfolio Section
---------------------------------------------------------------*/
-.portfolio{
+/* Catalogo */
+.catalogo{
   padding-top: 50px;
   padding-bottom: 50px;
 }
-.portfolio .portfolio-wrap {
+.catalogo .catalogo-wrap {
   border-radius: 10px;
   height: 100%;
   overflow: hidden;
   
 }
 
-.portfolio .portfolio-wrap img {
+.catalogo .catalogo-wrap img {
   transition: 0.3s;
   position: relative;
   z-index: 1;
 }
 
-.portfolio .portfolio-wrap .portfolio-info {
+.catalogo .catalogo-wrap .catalogo-info {
   padding: 25px 20px;
   background-color: #fff;
   position: relative;
@@ -87,7 +81,7 @@ body {
   z-index: 2;
 }
 
-.portfolio .portfolio-wrap .portfolio-info h4 {
+.catalogo .catalogo-wrap .catalogo-info h4 {
   font-size: 18px;
   font-weight: 900;
   letter-spacing: 1px;
@@ -96,7 +90,7 @@ body {
   text-align: center;
 }
 
-.portfolio .portfolio-wrap .portfolio-info p {
+.catalogo .catalogo-wrap .catalogo-info p {
   color: #6c757d;
   font-size: 14px;
   margin-bottom: 0;
@@ -104,40 +98,38 @@ body {
   text-align: center;
 }
 
-.portfolio .portfolio-wrap:hover img {
+.catalogo .catalogo-wrap:hover img {
   transform: scale(1.2);
   filter: grayscale(50%);
 }
-.portfolio h1{
+.catalogo h1{
   color: white;
   font-size: 45px;
   font-family: 'Viaoda Libre', cursive;
   line-height: 20px;
   font-weight: 500;
 }
-.portfolio p{
+.catalogo p{
   color: rgb(181, 181, 181);
   font-size: 25px;
   font-family: 'Viaoda Libre', cursive;
   font-weight: 550;
 }
 @media (max-width: 992px) {
-  .portfolio  h1 {
+  .catalogo  h1 {
     font-size: 45px;
     line-height: 30px;
     text-align: center;
   }
 
- .portfolio p {
+ .catalogo p {
     font-size: 25px;
     text-align: center;
     line-height: 30px;
     
   }
 }
-/*-------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
+/* Pie de pagina */
 #footer {
   background: #060606;
   padding: 0 0 30px 0;
@@ -162,10 +154,7 @@ body {
 #footer .credits a:hover {
   color: #f1f7ff;
 }
-
-/*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
+/* Contacto de Whatsapp (Boton) */
 .back-to-top {
   position: fixed;
   visibility: hidden;
