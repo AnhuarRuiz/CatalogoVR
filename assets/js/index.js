@@ -1,9 +1,6 @@
 (function() {
   "use strict";
 
-  /**
-   * Easy selector helper function
-   */
   const select = (el, all = false) => {
     el = el.trim()
     if (all) {
@@ -12,10 +9,6 @@
       return document.querySelector(el)
     }
   }
-
-  /**
-   * Easy event listener function
-   */
   const on = (type, el, listener, all = false) => {
     let selectEl = select(el, all)
     if (selectEl) {
@@ -26,17 +19,11 @@
       }
     }
   }
-
-  /**
-   * Easy on scroll event listener 
-   */
   const onscroll = (el, listener) => {
     el.addEventListener('scroll', listener)
   }
 
-  /**
-   * Back to top button
-   */
+  /** Accione para el boton de Whatsapp */
   let backtotop = select('.back-to-top')
   if (backtotop) {
     const toggleBacktotop = () => {
@@ -47,9 +34,6 @@
     window.addEventListener('load', toggleBacktotop)
     onscroll(document, toggleBacktotop)
   }
-  /**
-   * Animation on scroll
-   */
   window.addEventListener('load', () => {
     AOS.init({
       duration: 1000,
