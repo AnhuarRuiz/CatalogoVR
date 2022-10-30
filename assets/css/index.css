@@ -30,7 +30,7 @@ body {
   letter-spacing: 5px;
   text-transform: uppercase;
   color: rgb(255, 255, 255);
-  text-shadow: rgb(94, 94, 94) 3px 2px;
+  text-shadow: rgb(94, 94, 94) 1px 3px;
   text-align: center;
 }
 
@@ -40,7 +40,7 @@ body {
   font-weight: 100;
   text-transform: uppercase;
   color: rgb(255, 255, 255);
-  text-shadow: rgb(94, 94, 94) 3px 2px;
+  text-shadow: rgb(94, 94, 94) 1px 3px;
   text-align: center;
 
 }
