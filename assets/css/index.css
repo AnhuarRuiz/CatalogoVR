@@ -7,6 +7,15 @@ body {
   font-family: "Open Sans", sans-serif;
   background-color: black;
 }
+::-webkit-scrollbar{
+  width: 5px;
+}
+::-webkit-scrollbar-track{
+  background: rgb(32, 32, 32);
+}
+::-webkit-scrollbar-thumb{
+  background-color: rgb(145, 145, 145);
+}
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -126,6 +135,7 @@ section {
 
 .portfolio .portfolio-wrap:hover img {
   transform: scale(1.2);
+  filter: grayscale(50%);
 }
 /*-------------------------------------------------------
 # Footer
@@ -153,4 +163,37 @@ section {
 
 #footer .credits a:hover {
   color: #f1f7ff;
+}
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  width: 64px;
+  height: 64px; 
+}
+.back-to-top i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back-to-top:hover {
+  filter: grayscale(50%);
+}
+
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+img.animated-gif{
+  width: 40px;
+  height: auto;
+  border-radius: 20px;
 }
