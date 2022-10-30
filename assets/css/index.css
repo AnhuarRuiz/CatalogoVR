@@ -24,7 +24,7 @@ body {
   position: relative;
   background: url("../img/bg-main.png") center bottom no-repeat;
   background-size: cover;
-  padding: 150px 0 150px 0;
+  padding: 130px 0 150px 0;
 }
 #hero h1 {
   font-size: 80px;
@@ -60,40 +60,11 @@ body {
   }
 }
 /*--------------------------------------------------------------
-# Sections
---------------------------------------------------------------*/
-section {
-  overflow: hidden;
-}
-.section-header h3 {
-  font-size: 36px;
-  color: #283d50;
-  text-align: center;
-  font-weight: 500;
-  position: relative;
-}
-
-.section-header p {
-  text-align: center;
-  margin: auto;
-  font-size: 15px;
-  padding-bottom: 60px;
-  color: #556877;
-  width: 50%;
-}
-
-@media (max-width: 767px) {
-  .section-header p {
-    width: 100%;
-  }
-}
-
-/*--------------------------------------------------------------
 # Portfolio Section
 --------------------------------------------------------------*/
 .portfolio{
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .portfolio .portfolio-wrap {
   border-radius: 10px;
@@ -136,6 +107,33 @@ section {
 .portfolio .portfolio-wrap:hover img {
   transform: scale(1.2);
   filter: grayscale(50%);
+}
+.portfolio h1{
+  color: white;
+  font-size: 45px;
+  font-family: 'Viaoda Libre', cursive;
+  line-height: 20px;
+  font-weight: 500;
+}
+.portfolio p{
+  color: rgb(181, 181, 181);
+  font-size: 25px;
+  font-family: 'Viaoda Libre', cursive;
+  font-weight: 550;
+}
+@media (max-width: 992px) {
+  .portfolio  h1 {
+    font-size: 45px;
+    line-height: 30px;
+    text-align: center;
+  }
+
+ .portfolio p {
+    font-size: 25px;
+    text-align: center;
+    line-height: 30px;
+    
+  }
 }
 /*-------------------------------------------------------
 # Footer
