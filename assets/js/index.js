@@ -6,7 +6,7 @@
     if (all) {
       return [...document.querySelectorAll(el)]
     } else {
-      return document.querySelector(el)
+      return document.querySelector(el) 
     }
   }
   const on = (type, el, listener, all = false) => {
